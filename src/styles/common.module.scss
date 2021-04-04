@@ -1,1 +1,23 @@
-// TODO
+.info {
+  display: flex;
+  flex-direction:row;
+
+  svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5rem;
+  }
+  span {
+    font-size: 0.875rem;
+    color: var(--info);
+    margin-right: 1.625rem;
+  }
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: (var(--highlight));
+  font-weight: 700;
+  font-size: 3rem;
+}
